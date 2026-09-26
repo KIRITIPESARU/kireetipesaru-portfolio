@@ -19,6 +19,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
       sideMenuRef.current.style.transform = 'translateX(16rem)';
     }
   };
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScroll(window.scrollY > 50);
@@ -115,16 +116,12 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <a className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 text-gray-800 dark:text-white rounded-full font-Ovo hover:bg-lightHover dark:hover:bg-darkHover transition dark:border-white/50 whitespace-nowrap"
             href="#contact">
             Contact
-            <Image src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon}
-              alt="Contact Arrow" className="w-3 shrink-0"
-            />
+            <Image src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt="Contact Arrow" className="w-3 shrink-0"/>
           </a>
 
           {/* Mobile Menu Hamburger Button */}
           <button className="block md:hidden p-2" onClick={openMenu} aria-label="Open Navigation Menu">
-            <Image src={isDarkMode ? assets.menu_white : assets.menu_black}
-              alt="Open Menu" className="w-6 cursor-pointer"
-            />
+            <Image src={isDarkMode ? assets.menu_white : assets.menu_black} alt="Open Menu" className="w-6 cursor-pointer"/>
           </button>
         </div>
 
@@ -132,9 +129,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         <ul className="flex md:hidden flex-col gap-6 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50/95 backdrop-blur-md transition-transform duration-500 dark:bg-darkHover/95 dark:text-white shadow-2xl list-none"
           ref={sideMenuRef}>
           <div className="absolute right-6 top-6" onClick={closeMenu}>
-            <Image src={isDarkMode ? assets.close_white : assets.close_black}
-              alt="Close Menu" className="w-5 cursor-pointer hover:opacity-75 transition"
-            />
+            <Image src={isDarkMode ? assets.close_white : assets.close_black} alt="Close Menu" className="w-5 cursor-pointer hover:opacity-75 transition"/>
           </div>
 
           <li>
