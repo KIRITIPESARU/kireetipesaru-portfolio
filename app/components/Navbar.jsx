@@ -19,16 +19,23 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
       sideMenuRef.current.style.transform = 'translateX(16rem)';
     }
   };
-
   useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if(scrolly > 50) {
-        setIsScroll(true)
-      }else {
-        setIsScroll(false)
-      }
-    })
-  })
+    const handleScroll = () => {
+      setIsScroll(window.scrollY > 50);
+    };
+    handleScroll();
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', () => {
+  //     if(scrolly > 50) {
+  //       setIsScroll(true)
+  //     }else {
+  //       setIsScroll(false)
+  //     }
+  //   })
+  // })
   // useEffect(() => {
   //   const handleScroll = () => {
   //     if (window.scrollY > 50) {
