@@ -35,6 +35,14 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import my_sql_logo from './my_sql_logo.png';
+import my_sql from './my_sql.png';
+import JavaScript from './JavaScript.png';
+import Java from './Java.png';
+import HTML_5 from './HTML_5.png';
+import CSS_3 from './CSS_3.png';
+import BootStrap_logo from './BootStrap_logo.png';
+import React_Js from './React_Js.png';
 
 export const assets = {
     user_image,
@@ -73,7 +81,15 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    my_sql_logo,
+    my_sql,
+    JavaScript,
+    Java,
+    HTML_5,
+    CSS_3,
+    BootStrap_logo,
+    React_Js
 };
 
 export const workData = [
@@ -100,18 +116,23 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Frontend Development', description: 'Building responsive and user-friendly web applications using React.js, JavaScript, HTML5, and CSS3.', link: '' },
+    // Building responsive and user-friendly web applications using React.js, JavaScript, HTML5, and CSS3.
+    { icon: assets.mobile_icon, title: 'React.js Development', description: 'Developing mobile applications using React.js and related technologies.', link: '' },
+    // Developing reusable components, dynamic interfaces, and scalable React.js applications with modern frontend practices.
+    { icon: assets.ui_icon, title: 'REST API Integration', description: 'Integrating with RESTful APIs to enable seamless data exchange.', link: '' },
+    // Integrating REST APIs to fetch, manage, and display dynamic data with proper loading and error handling.
+    { icon: assets.graphics_icon, title: 'Responsive UI Development', description: 'Creating responsive and user-friendly interfaces.', link: '' },
+    // Creating responsive and accessible interfaces that provide a consistent experience across desktop, tablet, and mobile devices.
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Tailwind CSS, JavaScript, React.js, Java' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Technology (IT)' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 4 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 6 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    // assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.git, assets.HTML_5, assets.CSS_3, assets.JavaScript, assets.React_Js, assets.Java, assets.my_sql_logo
 ];

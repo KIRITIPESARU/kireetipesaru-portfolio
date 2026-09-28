@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <div className='flex-1'>
                     <p className="mb-10 max-w-2xl font-Ovo">
-                        I am a passionate Frontend Web Developer with 1.6 years of experience in building responsive and 
+                        I am a passionate Frontend Web Developer with 1.7 year's of experience in building responsive and 
                         user-friendly web applications using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS. I have 
                         a strong foundation in Core Java, OOPs, Collections, Exception Handling, and MySQL. I am skilled 
                         in REST API integration, UI development, debugging, and application support. I am dedicated to 

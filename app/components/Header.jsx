@@ -17,10 +17,12 @@ const Header = () => {
             </h1> */}
             <h1 className="text-center mb-2 text-5xl font-Ovo">Frontend Web Developer</h1>
             <p className="max-w-2x1 mx-auto font-Ovo">
-                Frontend Developer with 1.6 years of hands-on experience building responsive and user-friendly web applications using React.js, JavaScript, 
+                {/* Frontend Developer with 1.6 years of hands-on experience building responsive and user-friendly web applications using React.js, JavaScript, 
                 HTML5, CSS3, and Tailwind CSS. Skilled in REST API integration, UI development, debugging, and application support, with a strong foundation 
                 in Core Java, OOPs, Collections, Exception Handling, and MySQL. Passionate about creating efficient, scalable, and intuitive user experiences 
-                while continuously growing technical expertise.
+                while continuously growing technical expertise. */}
+                Frontend Developer with 1.7 years of experience building responsive and user-friendly web applications using React.js, JavaScript, HTML5, CSS3, 
+                and Tailwind CSS. Skilled in REST API integration, UI development, debugging, and application support.
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
                 <a href="#contact" className="px-10 py-3 border border-e-white rounded-full bg-black text-white flex items-center gap-2">
