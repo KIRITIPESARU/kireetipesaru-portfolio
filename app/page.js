@@ -4,8 +4,10 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Services from "./components/Services";
 import Work from "./components/Work";
+import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 
 export default function Home() {
@@ -40,6 +42,8 @@ export default function Home() {
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Header />
       <About />
+      <Experience />
+      <Certifications />
       <Services />
       <Work />
       <Contact />

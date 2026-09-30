@@ -1,3 +1,4 @@
+// src/assets/assets.js
 import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
@@ -5,10 +6,7 @@ import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
-import vscode from './vscode.png';
 import firebase from './firebase.png';
-import figma from './figma.png';
-import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
@@ -35,14 +33,18 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-import my_sql_logo from './my_sql_logo.png';
-import my_sql from './my_sql.png';
-import JavaScript from './JavaScript.png';
-import Java from './Java.png';
-import HTML_5 from './HTML_5.png';
-import CSS_3 from './CSS_3.png';
-import BootStrap_logo from './BootStrap_logo.png';
-import React_Js from './React_Js.png';
+import git from './git.png';
+import github from './github.png';
+import Vercel from './Vercel.png';
+import vscode from './vscode.png';
+import NPM from './NPM.png';
+import Postman from "./Postman.png";
+import figma from './figma.png';
+import Build_Your_Own_Static_Website from './Certifications/Build_Your_Own_Static_Website.jpg';
+import DOM_and_Events from './Certifications/DOM_and_Events.jpg';
+import Infosys_Springboard_HTML5 from './Certifications/Infosys_Springboard_HTML5.jpg';
+import Infosys_Springboard_Advanced_Function_Operations from './Certifications/Infosys_Springboard_Advanced_Function_Operations.jpg';
+import Certificate_Udemy from './Certifications/Certificate_Udemy.jpg';
 
 export const assets = {
     user_image,
@@ -52,10 +54,10 @@ export const assets = {
     edu_icon_dark,
     project_icon,
     project_icon_dark,
-    vscode,
+    vscode, NPM, Postman,
     firebase,
     figma,
-    git,
+    git, github, Vercel,
     mongodb,
     right_arrow_white,
     logo,
@@ -82,35 +84,36 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    my_sql_logo,
-    my_sql,
-    JavaScript,
-    Java,
-    HTML_5,
-    CSS_3,
-    BootStrap_logo,
-    React_Js
+    DOM_and_Events,
+    Build_Your_Own_Static_Website,
+    Infosys_Springboard_HTML5,
+    Infosys_Springboard_Advanced_Function_Operations,
+    Certificate_Udemy
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'AI Recruitment & HR Automation Platform',
+        Category: 'React.js • FastAPI • Bootstrap 5 • REST APIs',
+        description: 'Recruitment and HRMS platform featuring attendance, leave, payroll, onboarding, analytics dashboards, and role-based authentication.',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Hospital Management System',
+        Category: 'React.js • React Native • FastAPI',
+        description: 'Hospital management platform with role-based dashboards, appointment scheduling, responsive interfaces, and AI-powered symptom analysis.',
+        bgImage: '/work-1.png',
+    },
+    {
+        title: 'Institute Web Platform',
+        Category: 'React.js • FastAPI • JWT • REST APIs',
+        description: 'Responsive institute platform with admin dashboard, CRUD operations, analytics views, JWT authentication, and role-based access.',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Onboarding Form',
+        Category: 'React.js • JavaScript',
+        description: 'Multi-step onboarding form with validation, responsive UI, and localStorage-based data persistence.',
         bgImage: '/work-4.png',
     },
 ]
@@ -118,21 +121,99 @@ export const workData = [
 export const serviceData = [
     { icon: assets.web_icon, title: 'Frontend Development', description: 'Building responsive and user-friendly web applications using React.js, JavaScript, HTML5, and CSS3.', link: '' },
     // Building responsive and user-friendly web applications using React.js, JavaScript, HTML5, and CSS3.
-    { icon: assets.mobile_icon, title: 'React.js Development', description: 'Developing mobile applications using React.js and related technologies.', link: '' },
+    { icon: assets.mobile_icon, title: 'React.js Development', description: 'Developing reusable components, dynamic interfaces, and scalable React.js applications using modern frontend practices.', link: '' },
     // Developing reusable components, dynamic interfaces, and scalable React.js applications with modern frontend practices.
-    { icon: assets.ui_icon, title: 'REST API Integration', description: 'Integrating with RESTful APIs to enable seamless data exchange.', link: '' },
+    { icon: assets.ui_icon, title: 'REST API Integration', description: 'Integrating REST APIs to fetch, manage, and display dynamic application data with proper error handling.', link: '' },
     // Integrating REST APIs to fetch, manage, and display dynamic data with proper loading and error handling.
-    { icon: assets.graphics_icon, title: 'Responsive UI Development', description: 'Creating responsive and user-friendly interfaces.', link: '' },
+    { icon: assets.graphics_icon, title: 'UI & Application Support', description: 'Creating responsive and user-friendly interfaces that work smoothly across desktop, tablet, and mobile devices.', link: '' },
     // Creating responsive and accessible interfaces that provide a consistent experience across desktop, tablet, and mobile devices.
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Tailwind CSS, JavaScript, React.js, Java' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Technology (IT)' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'React.js, JavaScript, HTML5, CSS3, Tailwind CSS, Java' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Technology(IT)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 6 projects' }
 ];
 
 export const toolsData = [
     // assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
-    assets.vscode, assets.git, assets.HTML_5, assets.CSS_3, assets.JavaScript, assets.React_Js, assets.Java, assets.my_sql_logo
+    assets.git, assets.github, assets.vscode, assets.Vercel, assets.NPM, assets.Postman, assets.figma
 ];
+
+export const experienceData = [
+    {
+        title: 'Associate Software Engineer',
+        company: 'Levitica Technologies Pvt. Ltd.',
+        duration: 'Jul 2025 – Aug 2026',
+        location: 'Hyderabad, India',
+        responsibilities: [
+            'Developed and maintained responsive web interfaces using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS.',
+            'Integrated RESTful APIs and implemented dynamic data rendering in frontend applications.',
+            'Collaborated with backend and QA teams to identify, debug, and resolve application issues.',
+            'Worked on UI enhancements, performance improvements, and responsive design implementation.',
+            'Provided application-level technical support and troubleshooting for client-reported issues.',
+            'Participated in code reviews, bug tracking, testing, and deployment activities.',
+            'Utilized Git and GitHub for version control and collaborative development.'
+        ]
+    },
+    {
+        title: 'Frontend Developer Intern',
+        company: 'Levitica Technologies Pvt. Ltd.',
+        duration: 'Mar 2025 – Jun 2025',
+        location: 'Hyderabad, India',
+        responsibilities: [
+            'Assisted in developing responsive web pages using HTML5, CSS3, JavaScript, React.js, and Tailwind CSS.',
+            'Supported REST API integration and frontend feature implementation.',
+            'Worked closely with senior developers to resolve UI bugs and improve application usability.',
+            'Participated in testing, debugging, and code review activities.',
+            'Gained hands-on experience with Git, GitHub, and modern frontend development practices.'
+        ]
+    }
+];
+
+export const certificationData = [
+    {
+        title: 'Build Your Own Static Website',
+        issuer: 'NxtWave',
+        description: 'Fundamentals of HTML, CSS, Responsive Web Design, and Bootstrap for constructing modern responsive static websites.',
+        image: Build_Your_Own_Static_Website,
+        tags: ['HTML5', 'CSS3', 'Bootstrap', 'Responsive Web Design']
+    },
+    {
+        title: 'DOM Manipulation & Dynamic Web Applications',
+        issuer: 'NxtWave',
+        description: 'Hands-on training in JavaScript DOM manipulation, event listeners, array methods, and dynamic interactive user interfaces.',
+        image: DOM_and_Events,
+        tags: ['JavaScript', 'DOM', 'Events', 'ES6']
+    },
+    {
+        title: 'HTML5 Course Completion',
+        issuer: 'Infosys Springboard',
+        description: 'Certification covering modern HTML5 semantics, structural tags, web forms, and accessibility best practices.',
+        image: Infosys_Springboard_HTML5,
+        tags: ['HTML5', 'Semantic HTML', 'Web Standards']
+    },
+    {
+        title: 'Advanced Function Operations in JavaScript',
+        issuer: 'Infosys Springboard',
+        description: 'Advanced JavaScript paradigms including functional programming, higher-order functions, closures, and async operations.',
+        image: Infosys_Springboard_Advanced_Function_Operations,
+        tags: ['JavaScript', 'Functional Programming', 'ES6+']
+    },
+    {
+        title: 'Web Development Certification',
+        issuer: 'Udemy',
+        description: 'Comprehensive course certification covering essential frontend technologies and modern web development practices.',
+        image: Certificate_Udemy,
+        tags: ['Web Development', 'Frontend', 'React.js']
+    }
+];
+// import my_sql_logo from './my_sql_logo.png';
+// import my_sql from './my_sql.png';
+// import JavaScript from './JavaScript.png';
+// import Java from './Java.png';
+// import HTML_5 from './HTML_5.png';
+// import CSS_3 from './CSS_3.png';
+// import BootStrap_logo from './BootStrap_logo.png';
+// import React_Js from './React_Js.png';
+    // my_sql_logo, my_sql, JavaScript, Java, HTML_5, CSS_3, BootStrap_logo, React_Js,

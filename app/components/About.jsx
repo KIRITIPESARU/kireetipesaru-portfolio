@@ -14,12 +14,9 @@ const About = () => {
                 </div>
                 <div className='flex-1'>
                     <p className="mb-10 max-w-2xl font-Ovo">
-                        I am a passionate Frontend Web Developer with 1.7 year's of experience in building responsive and 
-                        user-friendly web applications using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS. I have 
-                        a strong foundation in Core Java, OOPs, Collections, Exception Handling, and MySQL. I am skilled 
-                        in REST API integration, UI development, debugging, and application support. I am dedicated to 
-                        creating efficient, scalable, and intuitive user experiences while continuously growing my 
-                        technical expertise.
+                        I’m a Frontend Developer with 1.5+ years of professional experience in frontend development and application support. I have hands-on experience building responsive web applications using React.js, JavaScript, HTML5, CSS3, Tailwind CSS, and Bootstrap.
+                        My experience includes developing reusable React components, integrating REST APIs, implementing dynamic UI, form validation, authentication, debugging, and application support. I also have a strong foundation in Core Java, OOP, Collections, Exception Handling, Multithreading, SQL, and MySQL.
+                        I enjoy solving technical problems, learning new technologies, and building efficient, scalable, and user-friendly applications.
                     </p>
                     <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
                         {infoList.map(({icon, iconDark, title, description}, index) => (
