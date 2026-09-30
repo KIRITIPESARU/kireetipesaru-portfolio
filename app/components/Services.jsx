@@ -9,9 +9,8 @@ const Services = () => {
       <h4 className="text-center mb-2 text-lg font-Ovo">What I Offer</h4>
       <h2 className="text-center mb-2 text-5xl font-Ovo">My Services</h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-        Frontend Developer with 1.7 years of experience specializing in React.js, JavaScript, responsive UI development, 
-        and REST API integration. Strong foundation in Core Java, OOPs, and MySQL, with hands-on experience in debugging, 
-        application support, and building scalable web experiences.
+        {/* I build responsive and user-friendly web applications using React.js and modern frontend technologies, with experience in API integration, UI development, debugging, and application support. */}
+        I specialize in building responsive React applications, integrating REST APIs, developing reusable UI components, and supporting reliable frontend experiences across devices.
       </p>
       <div className="grid grid-cols-auto gap-6 my-10"> 
         {serviceData.map(({icon, title, description, link}, index) => (

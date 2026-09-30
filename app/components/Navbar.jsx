@@ -83,6 +83,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
+            <a href="#experience" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
+              Experience
+            </a>
+          </li>
+          <li>
             <a href="#services" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
               Services
             </a>
@@ -90,6 +95,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <li>
             <a href="#work" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
               My Work
+            </a>
+          </li>
+          <li>
+            <a href="#certifications" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
+              Certifications
             </a>
           </li>
           <li>
@@ -143,6 +153,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
+            <a href="#experience" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
+              Experience
+            </a>
+          </li>
+          <li>
             <a href="#services" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
               Services
             </a>
@@ -150,6 +165,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <li>
             <a href="#work" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
               My Work
+            </a>
+          </li>
+          <li>
+            <a href="#certifications" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
+              Certifications
             </a>
           </li>
           <li>

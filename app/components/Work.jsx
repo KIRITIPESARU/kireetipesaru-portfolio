@@ -10,9 +10,7 @@ const Work = () => {
         <h4 className="text-center mb-2 text-lg font-Ovo">My portfolio</h4>
         <h2 className="text-center mb-2 text-5xl font-Ovo">My Latest Work</h2>
         <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-            Frontend Developer with 1.7 years of experience specializing in React.js, JavaScript, responsive UI development,
-            and REST API integration. Strong foundation in Core Java, OOPs, and MySQL, with hands-on experience in debugging,
-            application support, and building scalable web experiences.
+            A collection of my frontend projects showcasing React.js development, responsive UI design, REST API integration, and modern web development practices.
         </p>
         <div className="grid grid-cols-auto gap-5 my-10">
             {workData.map((project, index) => (
