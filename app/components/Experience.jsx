@@ -13,10 +13,8 @@ const Experience = () => {
 
       <div className="flex flex-col gap-8 max-w-4xl mx-auto my-10">
         {experienceData.map((item, index) => (
-          <div
-            key={index}
-            className="border border-gray-400 rounded-2xl p-6 sm:p-8 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white/30 dark:hover:bg-darkHover transition-all"
-          >
+          <div key={index}
+            className="border border-gray-400 rounded-2xl p-6 sm:p-8 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white/30 dark:hover:bg-darkHover transition-all">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4 pb-4 border-b border-gray-200 dark:border-gray-700">
               <div>
                 <h3 className="text-xl sm:text-2xl font-semibold font-Ovo text-gray-800 dark:text-white">

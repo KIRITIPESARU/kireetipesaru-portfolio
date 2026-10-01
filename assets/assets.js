@@ -45,6 +45,19 @@ import DOM_and_Events from './Certifications/DOM_and_Events.jpg';
 import Infosys_Springboard_HTML5 from './Certifications/Infosys_Springboard_HTML5.jpg';
 import Infosys_Springboard_Advanced_Function_Operations from './Certifications/Infosys_Springboard_Advanced_Function_Operations.jpg';
 import Certificate_Udemy from './Certifications/Certificate_Udemy.jpg';
+import my_sql_logo from './my_sql_logo.png';
+import my_sql from './my_sql.png';
+import JavaScript from './JavaScript.png';
+import Java from './Java.png';
+import HTML_5 from './HTML_5.png';
+import CSS_3 from './CSS_3.png';
+import BootStrap_logo from './BootStrap_logo.png';
+import React_Js from './React_Js.png';
+import duolingo from './duolingo.png';
+import instagram from './instagram.png';
+import linkedin from './linkedin.png';
+import twitter from './twitter.png';
+import facebook from './facebook.png';
 
 export const assets = {
     user_image,
@@ -88,7 +101,9 @@ export const assets = {
     Build_Your_Own_Static_Website,
     Infosys_Springboard_HTML5,
     Infosys_Springboard_Advanced_Function_Operations,
-    Certificate_Udemy
+    Certificate_Udemy,
+    my_sql_logo, my_sql, JavaScript, Java, HTML_5, CSS_3, BootStrap_logo, React_Js,
+    duolingo, instagram, linkedin, twitter, facebook
 };
 
 export const workData = [
@@ -181,7 +196,7 @@ export const certificationData = [
     },
     {
         title: 'DOM Manipulation & Dynamic Web Applications',
-        issuer: 'NxtWave',
+        issuer: 'Infosys Springboard',
         description: 'Hands-on training in JavaScript DOM manipulation, event listeners, array methods, and dynamic interactive user interfaces.',
         image: DOM_and_Events,
         tags: ['JavaScript', 'DOM', 'Events', 'ES6']
@@ -208,12 +223,3 @@ export const certificationData = [
         tags: ['Web Development', 'Frontend', 'React.js']
     }
 ];
-// import my_sql_logo from './my_sql_logo.png';
-// import my_sql from './my_sql.png';
-// import JavaScript from './JavaScript.png';
-// import Java from './Java.png';
-// import HTML_5 from './HTML_5.png';
-// import CSS_3 from './CSS_3.png';
-// import BootStrap_logo from './BootStrap_logo.png';
-// import React_Js from './React_Js.png';
-    // my_sql_logo, my_sql, JavaScript, Java, HTML_5, CSS_3, BootStrap_logo, React_Js,
