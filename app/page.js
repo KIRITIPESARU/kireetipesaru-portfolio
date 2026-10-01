@@ -9,16 +9,15 @@ import Services from "./components/Services";
 import Work from "./components/Work";
 import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    if (
-      localStorage.theme === 'dark' ||
+    if ( localStorage.theme === 'dark' ||
       (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-    )
-    {
+    ) {
       setIsDarkMode(true);
     }
     else {
@@ -40,13 +39,14 @@ export default function Home() {
   return (
     <>
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-      <Header />
-      <About />
-      <Experience />
-      <Certifications />
-      <Services />
-      <Work />
-      <Contact />
+      <Header isDarkMode={isDarkMode} />
+      <About isDarkMode={isDarkMode} />
+      <Experience isDarkMode={isDarkMode} />
+      <Certifications isDarkMode={isDarkMode} />
+      <Services isDarkMode={isDarkMode} />
+      <Work isDarkMode={isDarkMode} />
+      <Contact isDarkMode={isDarkMode} />
+      <Footer isDarkMode={isDarkMode} />
     </>
   );
 }

@@ -26,5 +26,6 @@ export default {
       },
     },
   },
+  darkMode: 'selector', // or 'media' or 'class'
   plugins: [],
 };
