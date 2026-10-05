@@ -8,12 +8,12 @@ const About = () => {
         <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
             <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
             <h2 className="text-center mb-2 text-5xl font-Ovo">About Me</h2>
-            <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
+            <div className="flex w-full flex-col lg:flex-row items-center gap-10 my-10">
                 <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
                     <Image src={assets.user_image} alt="user" className="w-full rounded-3xl" />
                 </div>
                 <div className='flex-1'>
-                    <p className="mb-10 max-w-2xl font-Ovo">
+                    <p className="mb-6 max-w-2xl font-Ovo">
                         I’m a Frontend Developer with 1.5+ years of professional experience in frontend development and application support. I have hands-on experience building responsive web applications using React.js, JavaScript, HTML5, CSS3, Tailwind CSS, and Bootstrap.
                         My experience includes developing reusable React components, integrating REST APIs, implementing dynamic UI, form validation, authentication, debugging, and application support. I also have a strong foundation in Core Java, OOP, Collections, Exception Handling, Multithreading, SQL, and MySQL.
                         I enjoy solving technical problems, learning new technologies, and building efficient, scalable, and user-friendly applications.

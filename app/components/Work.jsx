@@ -9,10 +9,10 @@ const Work = () => {
         {/* Add work items here */}
         <h4 className="text-center mb-2 text-lg font-Ovo">My portfolio</h4>
         <h2 className="text-center mb-2 text-5xl font-Ovo">My Latest Work</h2>
-        <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+        <p className="text-center max-w-2xl mx-auto mt-2 mb-8 font-Ovo">
             A collection of my frontend projects showcasing React.js development, responsive UI design, REST API integration, and modern web development practices.
         </p>
-        <div className="grid grid-cols-auto gap-5 my-10">
+        <div className="grid grid-cols-auto gap-5 my-6">
             {workData.map((project, index) => (
                 <div key={index}
                 className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
@@ -29,7 +29,7 @@ const Work = () => {
                 </div>
             ))}
         </div>
-        <a href='' className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full y-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500">
+        <a href='' className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-10 hover:bg-lightHover duration-500">
             Show more <Image src={assets.right_arrow_bold} alt='Right Arrow' className="w-4" />
         </a>
     </div>
