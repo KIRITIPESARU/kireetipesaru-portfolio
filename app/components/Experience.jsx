@@ -7,11 +7,11 @@ const Experience = () => {
     <div id="experience" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">Career Journey</h4>
       <h2 className="text-center mb-2 text-5xl font-Ovo">My Experience</h2>
-      <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+      <p className="text-center max-w-2xl mx-auto mt-2 mb-8 font-Ovo">
         My professional journey and hands-on experience in frontend development, application support, API integration, and modern web technologies.
       </p>
 
-      <div className="flex flex-col gap-8 max-w-4xl mx-auto my-10">
+      <div className="flex flex-col gap-6 max-w-4xl mx-auto my-6">
         {experienceData.map((item, index) => (
           <div key={index}
             className="border border-gray-400 rounded-2xl p-6 sm:p-8 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white/30 dark:hover:bg-darkHover transition-all">

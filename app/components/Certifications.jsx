@@ -11,12 +11,12 @@ const Certifications = () => {
     <div id="certifications" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">Verified Credentials</h4>
       <h2 className="text-center mb-2 text-5xl font-Ovo">My Certifications</h2>
-      <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+      <p className="text-center max-w-2xl mx-auto mt-2 mb-8 font-Ovo">
         A showcase of my professional certifications, continuous learning accomplishments, and verified skills in frontend development and modern web technologies.
       </p>
 
       {/* Grid of Certificate Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
         {certificationData.map((cert, index) => (
           <div
             key={index}
