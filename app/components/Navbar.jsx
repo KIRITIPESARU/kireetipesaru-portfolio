@@ -88,6 +88,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
+            <a href="#education" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
+              Education
+            </a>
+          </li>
+          <li>
             <a href="#services" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
               Services
             </a>
@@ -155,6 +160,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <li>
             <a href="#experience" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
               Experience
+            </a>
+          </li>
+          <li>
+            <a href="#education" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
+              Education
             </a>
           </li>
           <li>

@@ -5,9 +5,10 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Services from "./components/Services";
 import Work from "./components/Work";
-import Certifications from "./components/Certifications";
+// import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -42,7 +43,8 @@ export default function Home() {
       <Header isDarkMode={isDarkMode} />
       <About isDarkMode={isDarkMode} />
       <Experience isDarkMode={isDarkMode} />
-      <Certifications isDarkMode={isDarkMode} />
+      <Education isDarkMode={isDarkMode} />
+      {/* <Certifications isDarkMode={isDarkMode} /> */}
       <Services isDarkMode={isDarkMode} />
       <Work isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
