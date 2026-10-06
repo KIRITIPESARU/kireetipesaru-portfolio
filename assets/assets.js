@@ -13,6 +13,8 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
+import phone_call from './phone-call.png';
+import google_maps from './google-maps.png';
 import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
@@ -76,7 +78,7 @@ export const assets = {
     logo,
     logo_dark,
     mail_icon,
-    mail_icon_dark,
+    mail_icon_dark, phone_call, google_maps,
     profile_img,
     download_icon,
     hand_icon,
@@ -159,7 +161,8 @@ export const experienceData = [
     {
         title: 'Associate Software Engineer',
         company: 'Levitica Technologies Pvt. Ltd.',
-        duration: 'Jul 2025 – Aug 2026',
+        employmentType: 'Full-time',
+        duration: 'Mar 2025 – Aug 2026',
         location: 'Hyderabad, India',
         responsibilities: [
             'Developed and maintained responsive web interfaces using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS.',
@@ -168,20 +171,8 @@ export const experienceData = [
             'Worked on UI enhancements, performance improvements, and responsive design implementation.',
             'Provided application-level technical support and troubleshooting for client-reported issues.',
             'Participated in code reviews, bug tracking, testing, and deployment activities.',
-            'Utilized Git and GitHub for version control and collaborative development.'
-        ]
-    },
-    {
-        title: 'Frontend Developer Intern',
-        company: 'Levitica Technologies Pvt. Ltd.',
-        duration: 'Mar 2025 – Jun 2025',
-        location: 'Hyderabad, India',
-        responsibilities: [
-            'Assisted in developing responsive web pages using HTML5, CSS3, JavaScript, React.js, and Tailwind CSS.',
-            'Supported REST API integration and frontend feature implementation.',
-            'Worked closely with senior developers to resolve UI bugs and improve application usability.',
-            'Participated in testing, debugging, and code review activities.',
-            'Gained hands-on experience with Git, GitHub, and modern frontend development practices.'
+            'Utilized Git and GitHub for version control and collaborative development.',
+            'Started as a Frontend Developer Intern and progressed to the Associate Software Engineer role, gaining hands-on experience in modern frontend development.'
         ]
     }
 ];
@@ -222,4 +213,27 @@ export const certificationData = [
         image: Certificate_Udemy,
         tags: ['Web Development', 'Frontend', 'React.js']
     }
+];
+
+export const educationData = [
+    {
+        degree: 'Bachelor of Technology (B.Tech)',
+        institution: 'Malla Reddy Institute of Technology and Science',
+        department: 'Information Technology',
+        score: 'CGPA: 6.28 | 2020 – 2023',
+    },
+    {
+        degree: 'Diploma in AEI',
+        institution: 'Government Polytechnic College, Bellampally',
+        department: 'Applied Electronics and Instrumentation Engineering',
+        score: 'Percentage: 61.89% | 2016 – 2019',
+    },
+    // {
+    //     degree: 'SSC',
+    //     institution: 'Siddhartha Gurkula High School',
+    //     score: 'CGP: 9.2 (Out of 10.0)',
+    //     duration: '2016',
+    //     location: 'Warangal, India'
+    //     // location: 'Chennaraopet, India'
+    // }
 ];
