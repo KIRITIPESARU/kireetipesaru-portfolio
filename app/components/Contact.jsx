@@ -44,13 +44,13 @@ const Contact = ({ isDarkMode }) => {
           <div className="w-max flex items-center gap-2">
             <Image src={assets.linkedin} alt="LinkedIn Icon" className="w-6" />
             <a target="_blank" href="https://www.linkedin.com/in/kireeti-pesaru-8aab06228/?isSelfProfile=true" alt="LinkedIn" >
-              KireetiPesaru
+              Linkedin
             </a>
           </div>
           <div className="w-max flex items-center gap-2">
             <Image src={assets.github} alt="GitHub Icon" className="w-6" />
             <a target="_blank" href="https://github.com/KireetiPesaru" alt="GitHub" >
-              KireetiPesaru
+              Github
             </a>
           </div>
           <div className="w-max flex items-center gap-2">
