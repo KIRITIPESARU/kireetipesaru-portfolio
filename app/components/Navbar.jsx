@@ -60,7 +60,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           isScroll ? 'bg-white/50 backdrop-blur-lg shadow-sm dark:bg-darkTheme/50 dark:shadow-white/20' : ''
         }`}>
         {/* Logo */}
-        <a href="#top" className="shrink-0">
+        <a href="#home" className="shrink-0">
           <Image src={isDarkMode ? assets.logo_dark : assets.logo}
             alt="logo" className="w-28 cursor-pointer shrink-0"
           />
@@ -73,7 +73,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               : 'bg-white/50 backdrop-blur-md shadow-sm border border-gray-500/20 dark:border dark:border-white/50 dark:bg-transparent'
           }`}>
           <li>
-            <a href="#top" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
+            <a href="#home" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
               Home
             </a>
           </li>
@@ -102,11 +102,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               My Work
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#certifications" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
               Certifications
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
               Contact me
@@ -148,7 +148,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </div>
 
           <li>
-            <a href="#top" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
+            <a href="#home" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
               Home
             </a>
           </li>
