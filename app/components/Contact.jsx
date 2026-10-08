@@ -49,7 +49,7 @@ const Contact = ({ isDarkMode }) => {
           </div>
           <div className="w-max flex items-center gap-2">
             <Image src={assets.github} alt="GitHub Icon" className="w-6" />
-            <a target="_blank" href="https://github.com/KireetiPesaru" alt="GitHub" >
+            <a target="_blank" href="https://github.com/KIRITIPESARU" alt="GitHub" >
               Github
             </a>
           </div>
