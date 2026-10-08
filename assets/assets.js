@@ -237,3 +237,29 @@ export const educationData = [
     //     // location: 'Chennaraopet, India'
     // }
 ];
+
+export const whatIBringData = [
+  {
+    title: "Modern Frontend Development",
+    description: "Hands-on experience developing responsive and reusable user interfaces using React.js, JavaScript, HTML5, CSS3, Tailwind CSS, and Bootstrap."
+  },
+  {
+    title: "API Integration & Dynamic Applications",
+    description: "Practical experience integrating REST APIs, handling dynamic data, implementing authentication, and building data-driven frontend workflows."
+  },
+  {
+    title: "Application Support & Problem Solving",
+    description: "Experience debugging UI and application issues, troubleshooting client-reported problems, improving usability, and supporting application testing and deployment."
+  },
+  {
+    title: "Clean & Maintainable Development",
+    description: "Focused on reusable components, structured code, responsive design, and maintainable frontend solutions."
+  }
+];
+
+export const growthMindsetData = [
+  "Continuously strengthening my React.js and JavaScript skills through practical development and project-based learning.",
+  "Expanding knowledge of modern frontend technologies and application architecture to build scalable web applications.",
+  "Improving backend integration knowledge through REST APIs, SQL, MySQL, and application-level development.",
+  "Building stronger expertise in Core Java and software development fundamentals to become a well-rounded software developer."
+];
