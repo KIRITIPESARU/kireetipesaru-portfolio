@@ -11,9 +11,9 @@ const About = ({ isDarkMode }) => {
 
             {/* Image section with paragraph directly below */}
             <div className="flex flex-col items-center max-w-4xl mx-auto my-10 gap-8">
-                <div className="w-56 sm:w-64 md:w-72 rounded-3xl shrink-0 relative overflow-hidden shadow-lg dark:shadow-white/10 border border-gray-200 dark:border-white/10">
+                {/* <div className="w-56 sm:w-64 md:w-72 rounded-3xl shrink-0 relative overflow-hidden shadow-lg dark:shadow-white/10 border border-gray-200 dark:border-white/10">
                     <Image src={assets.user_image} alt="user" className="w-full rounded-3xl object-cover" />
-                </div>
+                </div> */}
                 <p className="font-Ovo text-gray-700 dark:text-gray-300 leading-relaxed text-center text-base sm:text-lg max-w-3xl">
                     Frontend Developer with 1.5+ years of professional experience building responsive, user-friendly web applications using React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, and Bootstrap. Experienced in developing reusable React components, integrating REST APIs, implementing dynamic user interfaces, form validation, authentication, debugging, and application support. Strong foundation in Core Java, OOP, Collections, Exception Handling, Multithreading, SQL, and MySQL.
                 </p>
