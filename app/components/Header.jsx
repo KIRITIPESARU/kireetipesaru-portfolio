@@ -24,7 +24,9 @@ const Header = () => {
                 while continuously growing technical expertise.
                 Frontend Developer with 1.7 year's of experience building responsive and user-friendly web applications using React.js, JavaScript, HTML5, CSS3, 
                 and Tailwind CSS. Skilled in REST API integration, UI development, debugging, and application support. */}
-                Frontend Developer with 1.5+ years of professional experience building responsive web applications using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS. Experienced in REST API integration, reusable components, dynamic UI development, debugging, and application support.
+                Frontend Developer with 1.5+ years of professional experience building responsive web applications using React.js, JavaScript, HTML5, CSS3, and
+                Tailwind CSS. Experienced in REST API integration, reusable components, dynamic UI development, debugging, and application support.
+                {/* Frontend Developer with 1.5+ years of professional experience building responsive web applications using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS. Experienced in REST API integration, reusable components, dynamic UI development, debugging, and application support. */}
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
                 <a href="#contact" className="px-10 py-3 border border-e-white rounded-full bg-black text-white flex items-center gap-2">
