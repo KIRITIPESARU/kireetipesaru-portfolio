@@ -72,19 +72,14 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               ? ''
               : 'bg-white/50 backdrop-blur-md shadow-sm border border-gray-500/20 dark:border dark:border-white/50 dark:bg-transparent'
           }`}>
-          <li>
+          {/* <li>
             <a href="#home" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
               Home
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#about" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
-              About me
-            </a>
-          </li>
-          <li>
-            <a href="#experience" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
-              Experience
+              About
             </a>
           </li>
           <li>
@@ -93,8 +88,13 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
-            <a href="#education" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
-              Education
+            <a href="#why-hire-me" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
+              Why Hire Me
+            </a>
+          </li>
+          <li>
+            <a href="#experience" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
+              Experience
             </a>
           </li>
           <li>
@@ -103,13 +103,13 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
-            <a href="#why-hire-me" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
-              Why Hire Me
+            <a href="#work" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
+              My Work
             </a>
           </li>
           <li>
-            <a href="#work" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
-              My Work
+            <a href="#education" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
+              Education
             </a>
           </li>
           {/* <li>
@@ -117,11 +117,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               Certifications
             </a>
           </li> */}
-          <li>
+          {/* <li>
             <a href="#contact" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
               Contact me
             </a>
-          </li>
+          </li> */}
         </ul>
 
         {/* Right Action Icons & Buttons */}
