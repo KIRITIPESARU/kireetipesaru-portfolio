@@ -1,5 +1,7 @@
 // app/components/WhyHireMe.jsx
 import React from 'react';
+import Image from 'next/image'
+import { assets } from '@/assets/assets'
 
 const reasons = [
   {
@@ -158,10 +160,8 @@ const WhyHireMe = () => {
 
       {/* CTA strip */}
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12">
-        <a
-          href="#contact"
-          className="px-8 py-3 rounded-full bg-black dark:bg-white text-white dark:text-black font-Ovo text-sm font-medium hover:opacity-80 transition-opacity duration-300"
-        >
+        <a href="#contact"
+          className="px-8 py-3 rounded-full bg-black dark:bg-white text-white dark:text-black font-Ovo text-sm font-medium hover:opacity-80 transition-opacity duration-300">
           Let&apos;s Work Together
         </a>
       </div>
