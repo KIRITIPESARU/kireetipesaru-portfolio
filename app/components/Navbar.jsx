@@ -88,6 +88,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
+            <a href="#skills" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
+              Skills
+            </a>
+          </li>
+          <li>
             <a href="#education" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
               Education
             </a>
@@ -95,6 +100,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <li>
             <a href="#services" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
               Services
+            </a>
+          </li>
+          <li>
+            <a href="#why-hire-me" className="font-Ovo text-gray-800 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 transition-colors whitespace-nowrap">
+              Why Hire Me
             </a>
           </li>
           <li>
@@ -163,6 +173,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
+            <a href="#skills" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
+              Skills
+            </a>
+          </li>
+          <li>
             <a href="#education" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
               Education
             </a>
@@ -173,13 +188,13 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
-            <a href="#work" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
-              My Work
+            <a href="#why-hire-me" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
+              Why Hire Me
             </a>
           </li>
           <li>
-            <a href="#certifications" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
-              Certifications
+            <a href="#work" className="font-Ovo text-lg text-gray-800 dark:text-white" onClick={closeMenu}>
+              My Work
             </a>
           </li>
           <li>

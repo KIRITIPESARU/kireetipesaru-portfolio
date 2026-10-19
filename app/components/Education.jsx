@@ -6,7 +6,6 @@ import Image from 'next/image';
 
 const Education = ({ isDarkMode }) => {
   const [selectedCert, setSelectedCert] = useState(null);
-
   return (
     <div id="education" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">Academic & Achievements</h4>
@@ -37,7 +36,6 @@ const Education = ({ isDarkMode }) => {
                     </p>
                   )}
                 </div>
-
                 <div className="text-sm font-medium text-gray-600 dark:text-gray-400 font-Ovo mt-1 border-t border-gray-200 dark:border-gray-700/50 pt-3">
                   {item.score}
                 </div>
@@ -54,8 +52,8 @@ const Education = ({ isDarkMode }) => {
               <div key={index} onClick={() => setSelectedCert(cert)}
                 className="cursor-pointer group flex items-center justify-between border border-gray-400 dark:border-white/30 rounded-xl p-4 sm:p-6 hover:bg-lightHover dark:hover:bg-darkHover transition-all duration-300 hover:shadow-md hover:-translate-y-1">
                 <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 rounded-full bg-rose-500 group-hover:scale-150 transition-transform duration-300"></div>
-                  <span className="font-Ovo text-lg sm:text-xl font-medium text-gray-800 dark:text-white group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
+                  <div className="w-2 h-2 rounded-full bg-rose-500 group-hover:scale-150 transition-transform duration-300 shrink-0"></div>
+                  <span className="font-Ovo text-xs sm:text-sm font-medium text-gray-800 dark:text-white group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
                     {cert.title}
                   </span>
                 </div>
@@ -94,7 +92,6 @@ const Education = ({ isDarkMode }) => {
       )}
     </div>
   );
-
 };
 
 export default Education;

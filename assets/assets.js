@@ -137,13 +137,9 @@ export const workData = [
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Frontend Development', description: 'Building responsive and user-friendly web applications using React.js, JavaScript, HTML5, and CSS3.', link: '' },
-    // Building responsive and user-friendly web applications using React.js, JavaScript, HTML5, and CSS3.
     { icon: assets.mobile_icon, title: 'React.js Development', description: 'Developing reusable components, dynamic interfaces, and scalable React.js applications using modern frontend practices.', link: '' },
-    // Developing reusable components, dynamic interfaces, and scalable React.js applications with modern frontend practices.
     { icon: assets.ui_icon, title: 'REST API Integration', description: 'Integrating REST APIs to fetch, manage, and display dynamic application data with proper error handling.', link: '' },
-    // Integrating REST APIs to fetch, manage, and display dynamic data with proper loading and error handling.
     { icon: assets.graphics_icon, title: 'UI & Application Support', description: 'Creating responsive and user-friendly interfaces that work smoothly across desktop, tablet, and mobile devices.', link: '' },
-    // Creating responsive and accessible interfaces that provide a consistent experience across desktop, tablet, and mobile devices.
 ]
 
 export const infoList = [
@@ -162,7 +158,7 @@ export const experienceData = [
         title: 'Associate Software Engineer',
         company: 'Levitica Technologies Pvt. Ltd.',
         employmentType: 'Full-time',
-        duration: 'Mar 2025 – Aug 2026',
+        duration: 'Mar 2025 – Oct 2026',
         location: 'Hyderabad, India',
         responsibilities: [
             'Developed and maintained responsive web interfaces using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS.',
@@ -262,4 +258,51 @@ export const growthMindsetData = [
   "Expanding knowledge of modern frontend technologies and application architecture to build scalable web applications.",
   "Improving backend integration knowledge through REST APIs, SQL, MySQL, and application-level development.",
   "Building stronger expertise in Core Java and software development fundamentals to become a well-rounded software developer."
+];
+
+export const skillsData = [
+  {
+    category: 'Frontend',
+    color: 'rose',
+    icon: '🖥️',
+    skills: [
+      { name: 'React.js',          level: 'Proficient' },
+      { name: 'JavaScript (ES6+)', level: 'Proficient' },
+      { name: 'HTML5',             level: 'Proficient' },
+      { name: 'CSS3',              level: 'Proficient' },
+      { name: 'Tailwind CSS',      level: 'Proficient' },
+      { name: 'Bootstrap',         level: 'Proficient' },
+      { name: 'Next.js',           level: 'Intermediate' },
+    ]
+  },
+  {
+    category: 'API & Development',
+    color: 'indigo',
+    icon: '⚙️',
+    skills: [
+      { name: 'REST APIs',         level: 'Proficient' },
+      { name: 'JSON',              level: 'Proficient' },
+      { name: 'JWT Authentication',level: 'Intermediate' },
+      { name: 'Git',               level: 'Proficient' },
+      { name: 'GitHub',            level: 'Proficient' },
+      { name: 'Postman',           level: 'Proficient' },
+      { name: 'VS Code',           level: 'Proficient' },
+      { name: 'npm',               level: 'Proficient' },
+      { name: 'Vercel',            level: 'Intermediate' },
+    ]
+  },
+  {
+    category: 'Programming & Database',
+    color: 'emerald',
+    icon: '💾',
+    skills: [
+      { name: 'Core Java',         level: 'Intermediate' },
+      { name: 'OOP',               level: 'Intermediate' },
+      { name: 'Collections',       level: 'Intermediate' },
+      { name: 'Exception Handling',level: 'Intermediate' },
+      { name: 'Multithreading',    level: 'Intermediate' },
+      { name: 'SQL',               level: 'Intermediate' },
+      { name: 'MySQL',             level: 'Intermediate' },
+    ]
+  }
 ];
