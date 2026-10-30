@@ -61,10 +61,7 @@ const Skills = () => {
         {skillsData.map((group, gi) => {
           const c = colorMap[group.color];
           return (
-            <div
-              key={gi}
-              className={`rounded-2xl border p-6 flex flex-col gap-5 cursor-default hover:-translate-y-1 hover:shadow-lg transition-all duration-300 dark:hover:shadow-white/10 ${c.header}`}
-            >
+            <div key={gi} className={`rounded-2xl border p-6 flex flex-col gap-5 cursor-default hover:-translate-y-1 hover:shadow-lg transition-all duration-300 dark:hover:shadow-white/10 ${c.header}`}>
               {/* Card Header */}
               <div className="flex items-center gap-3 pb-4 border-b border-gray-200 dark:border-white/10">
                 <span className={`text-2xl ${c.icon}`}>{group.icon}</span>
