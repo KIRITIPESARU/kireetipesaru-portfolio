@@ -266,13 +266,13 @@ export const skillsData = [
     color: 'rose',
     icon: '🖥️',
     skills: [
-      { name: 'React.js',          level: 'Proficient' },
-      { name: 'JavaScript (ES6+)', level: 'Proficient' },
-      { name: 'HTML5',             level: 'Proficient' },
-      { name: 'CSS3',              level: 'Proficient' },
-      { name: 'Tailwind CSS',      level: 'Proficient' },
-      { name: 'Bootstrap',         level: 'Proficient' },
-      { name: 'Next.js',         level: 'Intermediate' },
+      { name: 'React.js' },
+      { name: 'JavaScript (ES6+)' },
+      { name: 'HTML5' },
+      { name: 'CSS3' },
+      { name: 'Tailwind CSS' },
+      { name: 'Bootstrap' },
+      { name: 'Next.js' },
     ]
   },
   {
@@ -280,15 +280,15 @@ export const skillsData = [
     color: 'indigo',
     icon: '⚙️',
     skills: [
-      { name: 'REST APIs',         level: 'Proficient' },
-      { name: 'JSON',              level: 'Proficient' },
-      { name: 'JWT Authentication',level: 'Intermediate' },
-      { name: 'Git',               level: 'Proficient' },
-      { name: 'GitHub',            level: 'Proficient' },
-      { name: 'Postman',           level: 'Proficient' },
-      { name: 'VS Code',           level: 'Proficient' },
-      { name: 'npm',               level: 'Proficient' },
-      { name: 'Vercel',            level: 'Intermediate' },
+      { name: 'REST APIs' },
+      { name: 'JSON' },
+      { name: 'JWT Authentication' },
+      { name: 'Git' },
+      { name: 'GitHub' },
+      { name: 'Postman' },
+      { name: 'VS Code' },
+      { name: 'npm' },
+      { name: 'Vercel' },
     ]
   },
   {
@@ -296,13 +296,13 @@ export const skillsData = [
     color: 'emerald',
     icon: '💾',
     skills: [
-      { name: 'Core Java',         level: 'Intermediate' },
-      { name: 'OOP',               level: 'Intermediate' },
-      { name: 'Collections',       level: 'Intermediate' },
-      { name: 'Exception Handling',level: 'Intermediate' },
-      { name: 'Multithreading',    level: 'Intermediate' },
-      { name: 'SQL',               level: 'Intermediate' },
-      { name: 'MySQL',             level: 'Intermediate' },
+      { name: 'Core Java' },
+      { name: 'OOP' },
+      { name: 'Collections' },
+      { name: 'Exception Handling' },
+      { name: 'Multithreading' },
+      { name: 'SQL' },
+      { name: 'MySQL' },
     ]
   }
 ];
