@@ -2,34 +2,67 @@
 import React from 'react';
 import { skillsData } from '@/assets/assets';
 
-// Color maps for the three themes (rose / indigo / emerald)
+// Rich 6-color palette with hover borders, icon bg tints, title transitions & per-color glow
 const colorMap = {
   rose: {
-    header:    'bg-rose-50 dark:bg-rose-950/30 border-rose-200 dark:border-rose-800/40',
-    icon:      'text-rose-500',
-    title:     'text-rose-600 dark:text-rose-400',
-    badge:     'bg-rose-100 dark:bg-rose-900/40 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-700/50',
-    dot:       'bg-rose-500',
-    proficient:'bg-rose-500/20 text-rose-600 dark:text-rose-400 border-rose-400/30',
-    intermediate:'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
+    card:         'border-rose-200/60 dark:border-rose-800/30 hover:border-rose-400 dark:hover:border-rose-500',
+    iconBg:       'bg-rose-50 dark:bg-rose-950/40',
+    icon:         'text-rose-500',
+    dot:          'bg-rose-500',
+    titleText:    'text-rose-600 dark:text-rose-400 group-hover:text-rose-600 dark:group-hover:text-rose-400',
+    glow:         'hover:shadow-rose-100 dark:hover:shadow-rose-900/20',
+    proficient:   'bg-rose-500/20 text-rose-600 dark:text-rose-400 border-rose-400/30',
+    // intermediate: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
   },
   indigo: {
-    header:    'bg-indigo-50 dark:bg-indigo-950/30 border-indigo-200 dark:border-indigo-800/40',
-    icon:      'text-indigo-500',
-    title:     'text-indigo-600 dark:text-indigo-400',
-    badge:     'bg-indigo-100 dark:bg-indigo-900/40 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-700/50',
-    dot:       'bg-indigo-500',
-    proficient:'bg-indigo-500/20 text-indigo-600 dark:text-indigo-400 border-indigo-400/30',
-    intermediate:'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
+    card:         'border-indigo-200/60 dark:border-indigo-800/30 hover:border-indigo-400 dark:hover:border-indigo-500',
+    iconBg:       'bg-indigo-50 dark:bg-indigo-950/40',
+    icon:         'text-indigo-500',
+    dot:          'bg-indigo-500',
+    titleText:    'text-indigo-600 dark:text-indigo-400 group-hover:text-indigo-600 dark:group-hover:text-indigo-400',
+    glow:         'hover:shadow-indigo-100 dark:hover:shadow-indigo-900/20',
+    proficient:   'bg-indigo-500/20 text-indigo-600 dark:text-indigo-400 border-indigo-400/30',
+    // intermediate: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
   },
   emerald: {
-    header:    'bg-emerald-50 dark:bg-emerald-950/30 border-emerald-200 dark:border-emerald-800/40',
-    icon:      'text-emerald-500',
-    title:     'text-emerald-600 dark:text-emerald-400',
-    badge:     'bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-700/50',
-    dot:       'bg-emerald-500',
-    proficient:'bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border-emerald-400/30',
-    intermediate:'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
+    card:         'border-emerald-200/60 dark:border-emerald-800/30 hover:border-emerald-400 dark:hover:border-emerald-500',
+    iconBg:       'bg-emerald-50 dark:bg-emerald-950/40',
+    icon:         'text-emerald-500',
+    dot:          'bg-emerald-500',
+    titleText:    'text-emerald-600 dark:text-emerald-400 group-hover:text-emerald-600 dark:group-hover:text-emerald-400',
+    glow:         'hover:shadow-emerald-100 dark:hover:shadow-emerald-900/20',
+    proficient:   'bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border-emerald-400/30',
+    // intermediate: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
+  },
+  amber: {
+    card:         'border-amber-200/60 dark:border-amber-800/30 hover:border-amber-400 dark:hover:border-amber-500',
+    iconBg:       'bg-amber-50 dark:bg-amber-950/40',
+    icon:         'text-amber-500',
+    dot:          'bg-amber-500',
+    titleText:    'text-amber-600 dark:text-amber-400 group-hover:text-amber-600 dark:group-hover:text-amber-400',
+    glow:         'hover:shadow-amber-100 dark:hover:shadow-amber-900/20',
+    proficient:   'bg-amber-500/20 text-amber-600 dark:text-amber-400 border-amber-400/30',
+    intermediate: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
+  },
+  violet: {
+    card:         'border-violet-200/60 dark:border-violet-800/30 hover:border-violet-400 dark:hover:border-violet-500',
+    iconBg:       'bg-violet-50 dark:bg-violet-950/40',
+    icon:         'text-violet-500',
+    dot:          'bg-violet-500',
+    titleText:    'text-violet-600 dark:text-violet-400 group-hover:text-violet-600 dark:group-hover:text-violet-400',
+    glow:         'hover:shadow-violet-100 dark:hover:shadow-violet-900/20',
+    proficient:   'bg-violet-500/20 text-violet-600 dark:text-violet-400 border-violet-400/30',
+    intermediate: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
+  },
+  teal: {
+    card:         'border-teal-200/60 dark:border-teal-800/30 hover:border-teal-400 dark:hover:border-teal-500',
+    iconBg:       'bg-teal-50 dark:bg-teal-950/40',
+    icon:         'text-teal-500',
+    dot:          'bg-teal-500',
+    titleText:    'text-teal-600 dark:text-teal-400 group-hover:text-teal-600 dark:group-hover:text-teal-400',
+    glow:         'hover:shadow-teal-100 dark:hover:shadow-teal-900/20',
+    proficient:   'bg-teal-500/20 text-teal-600 dark:text-teal-400 border-teal-400/30',
+    intermediate: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
   },
 };
 
@@ -45,12 +78,8 @@ const Skills = () => {
   return (
     <section id="skills" className="w-full px-[12%] py-10 scroll-mt-20">
       {/* Section Heading */}
-      <h4 className="text-center mb-2 text-lg font-Ovo text-gray-500 dark:text-gray-400">
-        What I Work With
-      </h4>
-      <h2 className="text-center mb-2 text-5xl font-Ovo text-gray-800 dark:text-white">
-        Technical Skills
-      </h2>
+      <h4 className="text-center mb-2 text-lg font-Ovo text-gray-500 dark:text-gray-400">What I Work With</h4>
+      <h2 className="text-center mb-2 text-5xl font-Ovo text-gray-800 dark:text-white">Technical Skills</h2>
       <p className="text-center max-w-2xl mx-auto mt-2 mb-10 font-Ovo text-gray-600 dark:text-gray-300 leading-relaxed">
         A focused set of technologies I use in real projects and can confidently
         discuss in depth — backed by hands-on professional and project experience.
@@ -59,13 +88,15 @@ const Skills = () => {
       {/* Skill Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {skillsData.map((group, gi) => {
-          const c = colorMap[group.color];
+          const c = colorMap[group.color] ?? colorMap.indigo;
           return (
-            <div key={gi} className={`rounded-2xl border p-6 flex flex-col gap-5 cursor-default hover:-translate-y-1 hover:shadow-lg transition-all duration-300 dark:hover:shadow-white/10 ${c.header}`}>
+            <div key={gi} className={`group rounded-2xl border bg-white dark:bg-gray-900/60 p-6 flex flex-col gap-5 cursor-default hover:-translate-y-1 hover:shadow-xl transition-all duration-300 ${c.card} ${c.glow}`}>
               {/* Card Header */}
               <div className="flex items-center gap-3 pb-4 border-b border-gray-200 dark:border-white/10">
-                <span className={`text-2xl ${c.icon}`}>{group.icon}</span>
-                <h3 className={`text-lg font-semibold font-Ovo ${c.title}`}>
+                <span className={`flex items-center justify-center w-10 h-10 rounded-xl text-xl ${c.iconBg} ${c.icon}`}>
+                  {group.icon}
+                </span>
+                <h3 className={`text-lg font-semibold font-Ovo transition-colors duration-200 ${c.titleText}`}>
                   {group.category}
                 </h3>
               </div>
@@ -87,17 +118,6 @@ const Skills = () => {
             </div>
           );
         })}
-      </div>
-
-      {/* Legend */}
-      <div className="flex flex-wrap justify-center items-center gap-4 mt-10">
-        <p className="text-sm text-gray-500 dark:text-gray-400 font-Ovo">Proficiency key:</p>
-        <span className="text-xs font-medium px-3 py-1 rounded-full border bg-rose-500/20 text-rose-600 dark:text-rose-400 border-rose-400/30">
-          Proficient — used daily in professional work
-        </span>
-        <span className="text-xs font-medium px-3 py-1 rounded-full border bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40">
-          Intermediate — applied in projects, can discuss confidently
-        </span>
       </div>
     </section>
   );
