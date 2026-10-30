@@ -34,36 +34,6 @@ const colorMap = {
     proficient:   'bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border-emerald-400/30',
     // intermediate: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
   },
-  amber: {
-    card:         'border-amber-200/60 dark:border-amber-800/30 hover:border-amber-400 dark:hover:border-amber-500',
-    iconBg:       'bg-amber-50 dark:bg-amber-950/40',
-    icon:         'text-amber-500',
-    dot:          'bg-amber-500',
-    titleText:    'text-amber-600 dark:text-amber-400 group-hover:text-amber-600 dark:group-hover:text-amber-400',
-    glow:         'hover:shadow-amber-100 dark:hover:shadow-amber-900/20',
-    proficient:   'bg-amber-500/20 text-amber-600 dark:text-amber-400 border-amber-400/30',
-    intermediate: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
-  },
-  violet: {
-    card:         'border-violet-200/60 dark:border-violet-800/30 hover:border-violet-400 dark:hover:border-violet-500',
-    iconBg:       'bg-violet-50 dark:bg-violet-950/40',
-    icon:         'text-violet-500',
-    dot:          'bg-violet-500',
-    titleText:    'text-violet-600 dark:text-violet-400 group-hover:text-violet-600 dark:group-hover:text-violet-400',
-    glow:         'hover:shadow-violet-100 dark:hover:shadow-violet-900/20',
-    proficient:   'bg-violet-500/20 text-violet-600 dark:text-violet-400 border-violet-400/30',
-    intermediate: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
-  },
-  teal: {
-    card:         'border-teal-200/60 dark:border-teal-800/30 hover:border-teal-400 dark:hover:border-teal-500',
-    iconBg:       'bg-teal-50 dark:bg-teal-950/40',
-    icon:         'text-teal-500',
-    dot:          'bg-teal-500',
-    titleText:    'text-teal-600 dark:text-teal-400 group-hover:text-teal-600 dark:group-hover:text-teal-400',
-    glow:         'hover:shadow-teal-100 dark:hover:shadow-teal-900/20',
-    proficient:   'bg-teal-500/20 text-teal-600 dark:text-teal-400 border-teal-400/30',
-    intermediate: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300/40',
-  },
 };
 
 const LevelBadge = ({ level, colors }) => {
@@ -111,7 +81,7 @@ const Skills = () => {
                         {skill.name}
                       </span>
                     </div>
-                    <LevelBadge level={skill.level} colors={c} />
+                    {/* <LevelBadge level={skill.level} colors={c} /> */}
                   </li>
                 ))}
               </ul>
