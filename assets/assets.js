@@ -272,7 +272,7 @@ export const skillsData = [
       { name: 'CSS3',              level: 'Proficient' },
       { name: 'Tailwind CSS',      level: 'Proficient' },
       { name: 'Bootstrap',         level: 'Proficient' },
-      { name: 'Next.js',           level: 'Intermediate' },
+      { name: 'Next.js',         level: 'Intermediate' },
     ]
   },
   {
@@ -306,3 +306,48 @@ export const skillsData = [
     ]
   }
 ];
+
+export const whyhireme = [
+  {
+    icon: '🖥️',
+    title: 'Modern Frontend Development',
+    description:
+      'Hands-on experience building responsive, user-friendly web applications using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS.',
+    color: 'rose',
+  },
+  {
+    icon: '🧩',
+    title: 'Reusable & Maintainable Code',
+    description:
+      'Focus on developing reusable React components, structured code, and maintainable UI solutions that scale cleanly.',
+    color: 'indigo',
+  },
+  {
+    icon: '⚙️',
+    title: 'REST API Integration',
+    description:
+      'Practical experience integrating REST APIs, handling dynamic data, and connecting frontend interfaces with backend services.',
+    color: 'emerald',
+  },
+  {
+    icon: '🔍',
+    title: 'Problem-Solving Mindset',
+    description:
+      'Experience debugging application issues, improving UI usability, and providing reliable application support.',
+    color: 'amber',
+  },
+  {
+    icon: '🤝',
+    title: 'Team Collaboration',
+    description:
+      'Experience collaborating with backend developers and QA teams on implementation, testing, bug fixing, and deployment activities.',
+    color: 'violet',
+  },
+  {
+    icon: '📈',
+    title: 'Continuous Learning',
+    description:
+      'Strong foundation in Core Java, OOP, Collections, Exception Handling, SQL, and MySQL, with a commitment to continuously improving technical skills.',
+    color: 'teal',
+  },
+]
