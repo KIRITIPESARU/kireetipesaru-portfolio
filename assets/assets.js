@@ -113,38 +113,38 @@ export const workData = [
         title: 'AI Recruitment & HR Automation Platform',
         Category: 'React.js • FastAPI • Tailwind CSS • Bootstrap 5 • REST APIs',
         description: 'Recruitment and HRMS platform featuring attendance, leave, payroll, onboarding, analytics dashboards, and role-based authentication.',
-        bgImage: '/work-2.png',
+        bgImage: '/Human_Resourse.png',
     },
     {
         title: 'Hospital Management System',
         Category: 'React.js • Tailwind CSS • Bootstrap 5 • React Native • FastAPI',
         description: 'Hospital management platform with role-based dashboards, appointment scheduling, responsive interfaces, and AI-powered symptom analysis.',
-        bgImage: '/work-1.png',
+        bgImage: '/Hospital_Management_System.png',
     },
     {
         title: 'Institute Web Platform',
         Category: 'React.js • Tailwind CSS • Bootstrap 5 • FastAPI • JWT • REST APIs',
         description: 'Responsive institute platform with admin dashboard, CRUD operations, analytics views, JWT authentication, and role-based access.',
-        bgImage: '/work-3.png',
+        bgImage: '/Institute_Web_Platform.png',
     },
     {
         title: 'Onboarding Form',
         Category: 'React.js • JavaScript • Tailwind CSS • Bootstrap 5',
         description: 'Multi-step onboarding form with validation, responsive UI, and localStorage-based data persistence.',
-        bgImage: '/work-4.png',
+        bgImage: '/Onboarding_Form.png',
     },
     {
         title: 'Anand Devocation – Spiritual Tourism',//  & Pilgrimage Platform
         Category: 'HTML • CSS • React.js • Node.js • Tailwind CSS • JavaScript',
         // description: 'A platform for spiritual tourism and pilgrimage, featuring interactive maps, user reviews, and booking capabilities.',
         description: 'Developed a responsive pilgrimage platform featuring temple discovery, special poojas, spiritual experiences, and travel planning across India.',
-        bgImage: '/work-5.png',
+        bgImage: '/Anand_Devocation.png',
     },
     {
       title: 'ConceptExim – Global Import & Export',
       Category: 'React.js • HTML • CSS • Tailwind CSS • JavaScript',
       description: 'Developed a responsive B2B trade platform featuring global sourcing, product catalogs, import-export services, and cold chain logistics.',
-      bgImage: '/work-6.png',
+      bgImage: '/ConceptExim_Global_Import_&_Export.png',
     },
 ]
 
