@@ -85,6 +85,9 @@ const Skills = () => {
                   </li>
                 ))}
               </ul>
+
+              {/* Bottom accent dot */}
+              <div className={`mt-auto w-6 h-1 rounded-full ${c.dot} opacity-60 group-hover:opacity-100 group-hover:w-10 transition-all duration-300`} />
             </div>
           );
         })}
